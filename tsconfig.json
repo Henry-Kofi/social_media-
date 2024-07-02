@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+      "strict":false,
+      "forceConsistentCasingInFileNames":true,
+      "declaration": true,
+      "target": "es5",
+      "module": "commonjs",
+      "pretty": true,
+      "noImplicitAny": true,
+      "sourceMap": true,  
+      "outDir": "dist",
+      "rootDir": "src",
+      "types": ["jest"],
+      "lib": [
+        "es6",
+        "dom"
+      ],
+      "typeRoots": [
+        "node_modules/@types"
+      ]
+    },
+    "exclude": [
+      "node_modules","dist",
+      "__tests__"
+    ],
+    "include": ["src"]
+  }
+  
